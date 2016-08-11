@@ -1,0 +1,11 @@
+{
+	"zone": 2,
+	"dimensions": {
+		"w": 8.0,
+		"l": 13.9,
+		"d": 7.0
+	},
+	"weight": 2.5,
+	"unit_weight": "kg",
+	"unit_dimensions": "cm"
+}

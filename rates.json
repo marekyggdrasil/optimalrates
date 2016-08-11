@@ -1,0 +1,53 @@
+[
+	{
+		"max_weight": 26.0,
+		"unit_weight": "oz",
+		"zone": 2,
+		"criteria": [
+			{
+				"key": "service",
+				"value": "Express"
+			},
+			{
+				"key": "class",
+				"value": "Parcel"
+			}
+		],
+		"price": 20.66,
+		"currency": "USD"
+	},
+	{
+		"max_weight": 1.0,
+		"unit_weight": "oz",
+		"zone": 1,
+		"criteria": [
+			{
+				"key": "service",
+				"value": "Express"
+			},
+			{
+				"key": "class",
+				"value": "Parcel"
+			}
+		],
+		"price": 20.66,
+		"currency": "USD"
+	},
+	{
+		"max_weight": 1.0,
+		"unit_weight": "oz",
+		"zone": null,
+		"criteria": [
+			{
+				"key": "service",
+				"value": "Express"
+			},
+			{
+				"key": "class",
+				"value": "Parcel"
+			}
+		],
+		"price": 20.66,
+		"currency": "USD"
+	}
+]

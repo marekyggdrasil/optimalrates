@@ -1,0 +1,114 @@
+{
+	"service": [
+		{
+			"name": "First",
+			"applicable": [
+				"Card", "Letter", "Flat", "Parcel"
+			],
+			"min_time": 1,
+			"max_time": 3
+		},
+		{
+			"name": "Priority",
+			"applicable": [
+				"Letter", "Flat", "Parcel", "LarceParcel", "IrregularParcel", "RegionalRateBoxA", "RegionalRateBoxB"
+			],
+			"min_time": 1,
+			"max_time": 3
+		},
+		{
+			"name": "Express",
+			"applicable": [
+				"Letter", "Flat", "Parcel"
+			],
+			"min_time": null,
+			"max_time": null
+		},
+		{
+			"name": "LibraryMail",
+			"applicable": [
+				"Flat", "Parcel"
+			],
+			"min_time": null,
+			"max_time": null
+		},
+		{
+			"name": "MediaMail",
+			"applicable": [
+				"Flat", "Parcel"
+			],
+			"min_time": 2,
+			"max_time": 8
+		},
+		{
+			"name": "ParcelSelect",
+			"applicable": [
+				"Parcel", "LarceParcel"
+			],
+			"min_time": 2,
+			"max_time": 8
+		}
+	],
+	"class": [
+		{
+			"name": "Card",
+			"max_dimensions": {
+				"w": 12.2,
+				"l": 13.3,
+				"d": 8.2
+			},
+			"max_weight": null,
+			"unit_dimensions": "cm",
+			"unit_weight": null
+		},
+		{
+			"name": "Letter",
+			"max_dimensions": null,
+			"max_weight": null,
+			"unit_dimensions": null,
+			"unit_weight": null
+		},
+		{
+			"name": "Flat",
+			"max_dimensions": null,
+			"max_weight": null,
+			"unit_dimensions": null,
+			"unit_weight": null
+		},
+		{
+			"name": "Parcel",
+			"max_dimensions": null,
+			"max_weight": null,
+			"unit_dimensions": null,
+			"unit_weight": null
+		},
+		{
+			"name": "LarceParcel",
+			"max_dimensions": null,
+			"max_weight": null,
+			"unit_dimensions": null,
+			"unit_weight": null
+		},
+		{
+			"name": "IrregularParcel",
+			"max_dimensions": null,
+			"max_weight": null,
+			"unit_dimensions": null,
+			"unit_weight": null
+		},
+		{
+			"name": "RegionalRateBoxA",
+			"max_dimensions": null,
+			"max_weight": null,
+			"unit_dimensions": null,
+			"unit_weight": null
+		},
+		{
+			"name": "RegionalRateBoxB",
+			"max_dimensions": null,
+			"max_weight": null,
+			"unit_dimensions": null,
+			"unit_weight": null
+		}
+	]
+}
